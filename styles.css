@@ -14,6 +14,7 @@ main{
 
   background-color: greenyellow;
   min-height: 300px;
+  display: flex;
 }
 .cards{
 
@@ -36,4 +37,14 @@ main{
     background-color: rgb(23, 2, 27);
     min-height: 300px;
     width: 30%;
+}
+.herobox1{
+
+    flex:2;
+    background-color: rgb(185, 24, 24);
+}
+.herobox2{
+
+    flex:1;
+    background-color: rgb(170, 70, 70);
 }
