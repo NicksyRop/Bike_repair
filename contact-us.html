@@ -50,9 +50,15 @@
           <p>Contact us
             Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
 
-            <form action="" method="post">
-                <input type="text" name="name" id="name">
-                <input type="email" name="email" id="email">
+            <form action="mail.php" method="post">
+                <div class="inputwrapper">
+                    <label for="name">First Name</label>
+                    <input type="text" name="name" id="name" placeholder="First Name">
+                </div>
+               <div class="inputwrapper">
+                   <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="jondoe@mail.com">
+               </div>
                 <input type="submit" value="Submit">
 
             </form>
