@@ -83,3 +83,7 @@ p{
     line-height: 1.25rem;
     margin: 10px 30px 20px 30px;
 }
+.cards i{
+    font-size: 50px;
+    padding-top: 20px;
+}
