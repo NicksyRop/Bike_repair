@@ -8,6 +8,10 @@ body{
    color: white;
    font-size: 1.25rem;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .container{
 width: 1024px;
 min-height: 300px;
@@ -92,7 +96,9 @@ p{
     font-size: 50px;
     padding-top: 20px;
 }
-.cards a{
-    text-decoration: none;
-    color: white;
+
+.mybutton{
+background-color: white;
+color: #FA4083;
+padding: 11px 25px;
 }
