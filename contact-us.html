@@ -56,12 +56,14 @@
         </p>
 
         <form action="mail.php" method="post">
+        <div class="inputwrapper"><label for="name">First Name</label></div>
           <div class="inputwrapper">
-            <label for="name">First Name</label>
+
             <input type="text" name="name" id="name" placeholder="First Name" />
           </div>
+          <div class="inputwrapper"><label for="email">Email</label></div>
           <div class="inputwrapper">
-            <label for="email">Email</label>
+
             <input
               type="email"
               name="email"
@@ -87,7 +89,7 @@ Message goes here</textarea
           <div class="inputwrapper">
             <p>How do you like to ne contacted?</p>
             <input type="radio" name="contact-pref" id="phone" value="phone" />
-            <label for="phone">Phone</label>
+            <label for="phone" class="margin-right">Phone</label>
             <input
               type="radio"
               name="contact-pref"
@@ -104,7 +106,8 @@ Message goes here</textarea
               <option value="Kericho">Kericho</option>
             </select>
           </div>
-          <input type="submit" value="Submit" />
+          <button type="submit" class="submitbutton" >Submit</button>
+
         </form>
       </div>
       <div class="cards">
