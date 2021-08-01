@@ -1,10 +1,13 @@
 html{
+   background-image: linear-gradient(#FC5E55,  #FA4083);
 
-    /* height: 100%; */
 }
 body{
-   background-image: linear-gradient(#FC5E55,  #FA4083);
+    background-image: url(images/image-lion-background.png);
    font-family: 'Gowun Batang', serif;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
    color: white;
    font-size: 1.25rem;
 }
@@ -32,6 +35,11 @@ main{
   min-height: 300px;
   display: flex;
   align-items: center;
+}
+.main2{
+
+    min-height: 300px;
+    padding-top: 50px;
 }
 .cards{
     text-align: center;
@@ -116,6 +124,8 @@ border-radius: 100px;
 border-width: 1.5px;
 border-style: solid;
 padding: 6px 10px;
+display: inline-block;
+position: relative;
 
 }
 .testimonials{
@@ -131,5 +141,34 @@ padding: 6px 10px;
     padding: 50px;
     border: 1px solid white;
     box-sizing: border-box; margin-top: 50px;
+
+}
+.tbox p:last-of-type{
+    font-size: 0.8rem;
+
+}
+/* .tbox :last-child{
+    font-size: 0.5rem;
+} */
+.dropdown{
+    display: none;
+    position:absolute;
+    padding-top: 20px;
+    text-align: center;
+}
+.navbutton:hover .dropdown{
+
+    display: block;
+}
+.dropdown .navbutton {
+    background-color: white;
+    width: 120px;
+}
+.dropdown .navbutton a{
+    color: #FA4083;
+    font-size: 1rem;
+}
+#name{
+
 
 }
