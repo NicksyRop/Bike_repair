@@ -106,6 +106,9 @@ margin-top: 20px;
 border-radius: 100px;
 /* box-shadow: 5px 5px 3px rgba(128, 128, 128, 0.637); */
 }
-.nav a.mybutton{
-margin-left: 30px;
+.navbutton{
+border-width: 1.5px;
+border-style: solid;
+padding: 6px 10px;
+
 }
