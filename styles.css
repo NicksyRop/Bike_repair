@@ -6,6 +6,7 @@ body{
    background-image: linear-gradient(#FC5E55,  #FA4083);
    font-family: 'Gowun Batang', serif;
    color: white;
+   font-size: 1.25rem;
 }
 .container{
 width: 1024px;
@@ -52,6 +53,7 @@ main{
 .herobox1{
 
     flex:2;
+    padding-right: 100px;
 }
 .herobox2{
 
@@ -59,5 +61,10 @@ main{
 }
 h1{
 
-    font-size: 80px;
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+}
+p{
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
 }
