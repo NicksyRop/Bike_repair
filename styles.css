@@ -54,6 +54,11 @@ main{
     background-size: cover;
     background-position: bottom;
 }
+.card1,.card2,.card3{
+
+    padding: 40px;
+    box-sizing: border-box;
+}
 .herobox1{
 
     flex:2;
@@ -81,7 +86,7 @@ p{
 
     font-size: .85rem;
     line-height: 1.25rem;
-    margin: 10px 30px 20px 30px;
+    margin-top: 15px;
 }
 .cards i{
     font-size: 50px;
