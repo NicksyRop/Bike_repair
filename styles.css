@@ -83,7 +83,7 @@ main{
 }
 h1{
 
-    font-size: 3.25rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 h2{
@@ -179,6 +179,7 @@ input[type=text], input[type=email], textarea {
     font-family: 'Gowun Batang', serif;
     box-sizing: border-box;
     font-size: 0.85rem;
+    border-radius: 5px;
 }
 .margin-right{
     margin-right: 20px;
